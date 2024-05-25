@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.GenerarBoletos" parent="Base.Theme.GenerarBoletos">
+        <!-- Transparent system bars for edge-to-edge. -->
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">#5AA35E</item>
+
+        <item name= "actionOverflowButtonStyle">@style/Threedotcolor</item>
+    </style>
+
+
+    <style name="Threedotcolor" parent="Widget.AppCompat.Light.ActionButton.Overflow">
+        <item name = "tint">@color/white</item>
+
+    </style>
+</resources>
